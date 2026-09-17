@@ -19,10 +19,6 @@ namespace FilmApp
             film2.HosszPercben = int.Parse(Console.ReadLine());
 
 
-
-            film2.Cim = "Deadpool";
-            film2.HosszPercben = 180;
-
             Console.WriteLine("1. Film címe: {0}, Hossza: {1}",film1.Cim,film1.HosszPercben);
             Console.WriteLine("2. Film címe: {0}, Hossza: {1}", film2.Cim, film2.HosszPercben);
         }
