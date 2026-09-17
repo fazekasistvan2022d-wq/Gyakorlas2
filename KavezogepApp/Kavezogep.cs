@@ -6,5 +6,33 @@ namespace KavezogepApp
 {
     internal class Kavezogep
     {
+        private int vizKeszletML;
+        public void VizTolt(int ml)
+        {
+            if(ml < 0)
+            {
+                Console.WriteLine("Szar az adat báttya!");
+                vizKeszletML = 0;
+            }
+            else
+            {
+                vizKeszletML = ml;
+            }
+        }
+
+        public void KaveFozes()
+        {
+            if (vizKeszletML < 150)
+            {
+                Console.WriteLine("Gebasz főnök!");
+
+            }
+            else
+            {
+                Console.WriteLine("Víz szint csökkentése..");
+                vizKeszletML -= 150;
+            }
+            
+        }
     }
 }
