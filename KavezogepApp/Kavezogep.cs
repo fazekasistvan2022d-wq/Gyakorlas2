@@ -12,11 +12,11 @@ namespace KavezogepApp
             if(ml < 0)
             {
                 Console.WriteLine("Rossz érték!");
-                vizKeszletML = 0;
+                vizKeszletML += 0;
             }
             else
             {
-                vizKeszletML = ml;
+                vizKeszletML += ml;
             }
         }
 
