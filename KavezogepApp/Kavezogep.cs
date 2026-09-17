@@ -11,7 +11,7 @@ namespace KavezogepApp
         {
             if(ml < 0)
             {
-                Console.WriteLine("Szar az adat báttya!");
+                Console.WriteLine("Rossz érték!");
                 vizKeszletML = 0;
             }
             else
@@ -24,7 +24,7 @@ namespace KavezogepApp
         {
             if (vizKeszletML < 150)
             {
-                Console.WriteLine("Gebasz főnök!");
+                Console.WriteLine("Nem lehet kávét főzni!");
 
             }
             else
